@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+    - imported File
+    - output File
+    + importFile (imported)
+    + scanFile (imported)
+    + printFile (output)
+}
+
+class Names {
+    - name String
+    - nameList List<String>
+    - convertedList String[]
+    + createArrayList (names)
+    + addNames (String)
+    + createArrayOfStrings (nameList)
+    + convertArrayList (nameList)
+    + sortArray (convertedList)
+}
+
+App o--> Names
+@enduml

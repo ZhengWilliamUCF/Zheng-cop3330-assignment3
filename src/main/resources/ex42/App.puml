@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+    - imported File
+    - output File
+    + importFile (imported)
+    + scanFile (imported)
+    + displayInfo(convertedList)
+}
+
+class FormatList {
+    - information String
+    - infoList List<String>
+    - convertedList String[]
+    + createArrayList()
+    + readInformation(imported)
+    + createArrayOfString(infoList)
+    + convertToArrayString(infoList)
+    + formatString(convertedList)
+}
+
+App <--->FormatList
+@enduml

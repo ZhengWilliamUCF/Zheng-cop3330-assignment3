@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+    - inputProductName String
+
+    + getUserInputProductName()
+    + printNotFound()
+}
+
+class Product {
+    - inputProductName String
+    - indexOfArrayContainsThatProduct Integer
+
+    + checkProductExistsOnShelf(inputProductName)
+    + printProductInfo(indexOfArrayContainsThatProduct)
+    + whileProductDoesNotExist(inputProductName)
+    + getUserInputProductName()
+}
+
+class JSON {
+    - Shelves String[]
+    - convertedJSONText String
+
+    + parseJSON()
+    + formatJSONText(convertedJSONText, Shelves)
+    + createShelves()
+}
+
+App <---> Product
+App o---> JSON
+@enduml

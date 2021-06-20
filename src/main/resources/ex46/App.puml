@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+    - filePath File
+    - AnimalList Hashmap<String, String>
+    - format String
+
+    + importFile(filePath)
+    + readFile(filePath, AnimalList)
+    + printOutput(OrderedAnimalList, format)
+}
+
+class Operations {
+    - AnimalList Hashmap<String, String>
+    - OrderedAnimalList Hashmap<String,String>
+    - AnimalName String
+    - AnimalValue String
+
+    + orderMaps(AnimalList, OrderedAnimalList)
+    + removeFromAnimalList(AnimalList)
+    + addToOrderedAnimalList(AnimalName, AnimalValue, AnimalList)
+    + checkIsEmpty(AnimalList)
+    + loopFunction(checkIsEmpty)
+}
+
+App --> Operations
+@enduml

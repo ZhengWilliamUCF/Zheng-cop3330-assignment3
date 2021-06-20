@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="660a69d3-03a4-4896-b442-e25734ed54ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="UML Sequence" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/Development/apache-maven-3.8.1" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1u0N8T6nb56VtL8lkuXzwHHgJ8I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ex44" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rando\IdeaProjects\untitled24" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rando\IdeaProjects\untitled24\src\main\java\ex41\Base" />
+      <recent name="C:\Users\Rando\IdeaProjects\untitled24" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ex46" />
+      <recent name="ex45" />
+      <recent name="ex44" />
+      <recent name="ex43" />
+      <recent name="ex42" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LinkedOperationsTest">
+    <configuration name="AppTest.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex46" />
+      <option name="MAIN_CLASS_NAME" value="ex46.AppTest" />
+      <option name="METHOD_NAME" value="readFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex46" />
+      <option name="MAIN_CLASS_NAME" value="ex46.LinkedOperationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedOperationsTest.checkHashMapAndIfKeyDoesNotExistAddToHashMapButCheckTheValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex46" />
+      <option name="MAIN_CLASS_NAME" value="ex46.LinkedOperationsTest" />
+      <option name="METHOD_NAME" value="checkHashMapAndIfKeyDoesNotExistAddToHashMapButCheckTheValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedOperationsTest.checkHashMapAndIfKeyDoesNotExistAddToHashMapButIfExistsIncreaseTheValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex46" />
+      <option name="MAIN_CLASS_NAME" value="ex46.LinkedOperationsTest" />
+      <option name="METHOD_NAME" value="checkHashMapAndIfKeyDoesNotExistAddToHashMapButIfExistsIncreaseTheValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedOperationsTest.removeFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex46" />
+      <option name="MAIN_CLASS_NAME" value="ex46.LinkedOperationsTest" />
+      <option name="METHOD_NAME" value="removeFromList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LinkedOperationsTest" />
+        <item itemvalue="JUnit.LinkedOperationsTest.removeFromList" />
+        <item itemvalue="JUnit.LinkedOperationsTest.checkHashMapAndIfKeyDoesNotExistAddToHashMapButCheckTheValue" />
+        <item itemvalue="JUnit.LinkedOperationsTest.checkHashMapAndIfKeyDoesNotExistAddToHashMapButIfExistsIncreaseTheValue" />
+        <item itemvalue="JUnit.AppTest.readFile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="660a69d3-03a4-4896-b442-e25734ed54ef" name="Default Changelist" comment="" />
+      <created>1623798388741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623798388741</updated>
+    </task>
+    <servers />
+  </component>
+</project>

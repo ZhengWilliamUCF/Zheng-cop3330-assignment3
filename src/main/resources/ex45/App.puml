@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+    - inputFileName String
+
+    + getUserInputFileName()
+}
+
+class FileInput {
+    - filePath File
+    - arrayList Arraylist<String>
+    - line String
+    - converted String[]
+
+    + scanFile(filePath)
+    + addToArray(line, arrayList)
+    + convertArrayList(arrayList)
+    + searchLine(converted)
+    + replaceWord(line, converted)
+}
+
+class FileOutput {
+    - formattedList String[]
+    - mainDirectoryPath String
+    - fileName String
+
+    + createFileOutputFile(mainDirectoryPath, fileName)
+    + writeToFile(filePath, formattedList[])
+}
+
+App ---> FileInput
+FileInput ---> FileOutput
+@enduml

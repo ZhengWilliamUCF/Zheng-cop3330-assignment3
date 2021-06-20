@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+    - inputCSS String
+    - inputJS String
+    - siteName String
+    - siteAuthor String
+
+    + getUserInputCSS()
+    + getUserInputJS()
+    + getUserInputSiteName()
+    + getUserInputAuthor()
+}
+
+class Skeleton {
+    - inputCSS String
+    - inputJS String
+    - siteName String
+    - siteAuthor String
+    - path String
+    - CSSPath String
+    - JSPath String
+
+    + createMainDirectory()
+    + createHTMLFileInDirectory(path)
+    + writeToHTMLFile(path)
+    + checkYESJS(inputJS)
+    + checkYESCSS(inputCSS)
+    + generateJSDirectory(path)
+    + generateCSSDirectory(path)
+    + createJSFolder(JSPath)
+    + createCSSFolder(CSSPath)
+}
+
+App o---> Skeleton
+@enduml
